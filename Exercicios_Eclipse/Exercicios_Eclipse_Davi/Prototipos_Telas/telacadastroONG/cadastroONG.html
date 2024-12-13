@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Cadastro ONG</title>
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="shortcut icon" href="../../imgs/logo.jpg" type="image/x-icon">
+  <title>Cadastro ONG - SOSBichinhos</title>
+</head>
+
+<header>
+  <h1>Cadastro ONG</h1>
+  
+</header>
+
+<body> 
+  <main class="ACac_pagina-container">
+    <div class="AC_formularios-container">
+      <div class="AC_formulario-circle">
+        <label>Inserir html da logo</label>
+        <input class="AC_input-text-logo" id="AC_input-logo" />
+      </div>
+
+      <div class="AC_formulario-box">
+        <label>CNPJ</label>
+        <input type="number" class="AC_input-text" id="cnpj-input" />
+        <label>Endereço</label>
+        <input class="AC_input-text" id="endereco-input" />
+        <label>Telefone</label>
+        <input type="number" class="AC_input-text" id="telefone-input" />
+        <label>E-mail</label>
+        <input class="AC_input-text" id="email-input" />
+      </div>
+      <div class="AC_formulario-box">
+        <label>Nome</label>
+        <input class="AC_input-text" id="nome-input" />
+        <label>História</label>
+        <input class="AC_input-text-historia" id="historia-input" />
+        <label>Senha</label>
+        <input class="AC_input-text" id="senha-input" />
+        <label>Confirmar Senha</label>
+        <input class="AC_input-text" id="confirmar-senha-input" />
+
+        <div id="confirmar-senha-msg-erro">Senhas informadas diferentes</div>
+      </div>
+    </div>
+    <div class="AC_botao-cadastro-container">
+      <button onclick="AC_botaoCadastrarOnClick()" class="AC_botao-cadastro">Cadastrar</button>
+    </div>
+  </main>
+  <script src="../../assets/scripts/script.js"></script>
+  <footer class="AC_footer">
+    <div>
+      <p>&copy; Patinhas Felizes</p>
+      <p>Conexão entre ONGs e Adotantes!</p>
+    </div>
+  </footer>
+
+    <!-- Link para o jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- link js navBar-->
+    <script src="../../assets/scripts/index.js"></script>
+  </body>
+
+</html>
